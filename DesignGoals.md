@@ -1,0 +1,5 @@
+# Design Goals #
+
+The design philosophy of the Workspace Mechanic has always been one centered around user choice. Users get to choose which changes are made to their workspace, and when they are made. This keeps unnecessary or untimely changes from disrupting hard-at-work engineers. There are reasonable cases (e.g. security) where fixes must be applied without participation by the user. We do not currently support such a case, though we may in the future.
+
+There are many ways to enforce constraints on Eclipse users: `plugin_customization.ini` for preference settings, and other constraints that effectively lock down some of the flexible natures of Eclipse. These are good constraints, and appropriate in the right setting. The Workspace Mechanic isn't currently designed to deal with those very specific situations.
